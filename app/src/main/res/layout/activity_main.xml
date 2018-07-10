@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/activity_main"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+
+    tools:context=".MainActivity">
+
+    android:paddingBottom="activity_vertical_margin"
+
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+
+    android:paddingRight="@dimen/activity_horizontal_margin"
+
+    android:paddingTop="@dimen/activity_vertical_margin"
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:text="My Favorite Songs"
+
+        android:id="@+id/textView"
+
+        android:layout_alignParentTop="true"
+
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="18dp"
+
+        android:textSize="30sp"
+
+        android:textColor="#d7edf3"
+
+        android:textStyle="normal|bold" />
+
+    <LinearLayout
+
+        android:orientation="vertical"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+
+        android:layout_below="@+id/textView"
+
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="62dp">
+
+        <Button
+
+            android:text="Best Music 1 "
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:id="@+id/button"
+            android:background="#7dbaea"
+            android:textColor="#f8ecf3"/>
+
+        <Button
+
+            android:text="Best Music 2 "
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:id="@+id/button2"
+            android:background="#4264ea"
+            android:textColor="#f8ecf3"/>
+
+        <Button
+
+            android:text="Best Music 3"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:id="@+id/button3"
+            android:background="#1c2083"
+            android:textColor="#f8ecf3"/>
+
+        <Button
+
+            android:text="Best Music 4"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:id="@+id/button4"
+            android:background="#110650"
+            android:textColor="#f8ecf3"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
